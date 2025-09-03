@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+
+void main()  {
+
+char vet[10]={'a', 'b', 'c', 'd', 'e', 'f','g', 'h','i', 'j','k'};
+
+int cont, c;
+
+
+for(cont = 0; cont < 10;){
+	printf(" %c ", vet[cont]);
+	 cont ++;
+}
+
+printf("%c", vet[10]);
+}
