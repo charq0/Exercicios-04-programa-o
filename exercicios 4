@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void main(){
+	 int vetor[8]= {1,2,3,4,5,6,24,12};
+	 int cont;
+	 int multiplosde6[8]={0};
+	 
+	 for(cont=0;cont<8 ;cont++ ){
+	 	printf("\n%d", vetor[cont]);
+	 	
+	 	
+	 	if (vetor[cont]>=6 && vetor[cont] % 6 ==0){
+			multiplosde6[cont]+= vetor[cont];
+		 }
+	 	
+	 }
+	 
+	 printf("\nOs multiplos sao os seguintes:");
+	 for (cont=0; cont<8 ; cont++){
+	 	if (multiplosde6[cont]!=0){
+
+	 	printf("%d ", multiplosde6[cont]);
+	 }
+	 	
+	 }
+
+	
+}
